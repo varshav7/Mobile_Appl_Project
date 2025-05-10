@@ -1,0 +1,149 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VegetablesActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C4EBF489"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="350dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="393dp"
+                android:layout_height="129dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="116dp"
+                    android:src="@drawable/onion" />
+
+                <Button
+                    android:id="@+id/btnAddOnion"
+                    android:layout_width="213dp"
+                    android:layout_height="79dp"
+                    android:backgroundTint="#C7B9E981"
+                    android:fontFamily="@font/bentham"
+                    android:text="Add to Cart" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="393dp"
+                android:layout_height="129dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="116dp"
+                    android:src="@drawable/potato" />
+
+                <Button
+                    android:id="@+id/btnAddPotato"
+                    android:layout_width="213dp"
+                    android:layout_height="79dp"
+                    android:backgroundTint="#C7B9E981"
+                    android:fontFamily="@font/bentham"
+                    android:text="Add to Cart" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="393dp"
+                android:layout_height="129dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="116dp"
+                    android:src="@drawable/tomato" />
+
+                <Button
+                    android:id="@+id/btnAddTomato"
+                    android:layout_width="213dp"
+                    android:layout_height="79dp"
+                    android:backgroundTint="#C7B9E981"
+                    android:fontFamily="@font/bentham"
+                    android:text="Add to Cart" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="393dp"
+                android:layout_height="129dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="116dp"
+                    android:src="@drawable/carrot" />
+
+                <Button
+                    android:id="@+id/btnAddCarrot"
+                    android:layout_width="213dp"
+                    android:layout_height="79dp"
+                    android:backgroundTint="#C7B9E981"
+                    android:fontFamily="@font/bentham"
+                    android:text="Add to Cart" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="393dp"
+                android:layout_height="129dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="116dp"
+                    android:src="@drawable/brinjal" />
+
+                <Button
+                    android:id="@+id/btnAddBrinjal"
+                    android:layout_width="213dp"
+                    android:layout_height="79dp"
+                    android:backgroundTint="#C7B9E981"
+                    android:fontFamily="@font/bentham"
+                    android:text="Add to Cart" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="393dp"
+                android:layout_height="129dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="116dp"
+                    android:src="@drawable/cucumber" />
+
+                <Button
+                    android:id="@+id/btnAddCucumber"
+                    android:layout_width="213dp"
+                    android:layout_height="79dp"
+                    android:backgroundTint="#C7B9E981"
+                    android:fontFamily="@font/bentham"
+                    android:text="Add to Cart" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/plus"
+        app:backgroundTint="#8BC34A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

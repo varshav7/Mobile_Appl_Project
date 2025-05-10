@@ -1,0 +1,129 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C4EBF489"
+    tools:context=".HomePage">
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="140dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/bentham"
+        android:gravity="center"
+        android:text="Dairy"
+        android:textColor="#373789"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="140dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/bentham"
+        android:gravity="center"
+        android:text="Vegetables"
+        android:textColor="#373789"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.662" />
+
+    <ImageButton
+        android:id="@+id/btnFruits"
+        android:layout_width="135dp"
+        android:layout_height="127dp"
+        android:background="@drawable/circular_button"
+        android:backgroundTint="#DDEB66"
+        android:contentDescription="Fruits"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fruits1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.218" />
+
+    <ImageButton
+        android:id="@+id/btnVegetables"
+        android:layout_width="138dp"
+        android:layout_height="133dp"
+        android:background="@drawable/circular_button"
+        android:backgroundTint="#DDEB66"
+        android:contentDescription="Vegetables"
+        android:scaleType="centerCrop"
+        android:src="@drawable/vegetables"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515" />
+
+    <ImageButton
+        android:id="@+id/btnDairy"
+        android:layout_width="129dp"
+        android:layout_height="126dp"
+        android:background="@drawable/circular_button"
+        android:backgroundTint="#DDEB66"
+        android:contentDescription="Dairy"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dairy1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.854" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="140dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/bentham"
+        android:gravity="center"
+        android:text="Fruits"
+        android:textColor="#373789"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.379" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="262dp"
+        android:layout_height="67dp"
+        android:fontFamily="@font/bentham"
+        android:gravity="center"
+        android:text="Holi Sale - Live!"
+        android:textColor="#373789"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
